@@ -1,0 +1,94 @@
+h1 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px; /* Add 'px' for the unit */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    right: 0px; /* Margen a la derecha */
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#ffffff85;
+    font-family: 'Arial';
+}
+
+table{
+    background: rgb(255, 255, 255)0.329;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+a {
+    color: #333;
+    text-decoration:none;
+}
+.contenedor{
+    border: solid 1px rgba(0, 0, 0, 0.2)
+}
+.Registro,
+.Eliminar{
+    color: rgb(0, 0, 0);
+    justify-content: center;
+
+}
+.agregar{
+    background: #bbbbbb67;
+    justify-content: center;
+}
+
+thead{
+    background: rgba(22, 22, 22, 0.753);
+}
+th{
+    padding: 20px 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.listas{
+    color: black;
+    background: #e7e7e7;
+}
+
+/* Hover es para pasar el cursos y se vea como si resaltado */
+tbody tr:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+#mensaje{
+    color:rgb(0, 0, 0);
+    font-size:12px;
+}
+
+

@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    display: flex;
+    min-height: 100vh; /* Set the body to at least the height of the viewport */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;    
+    background: rgb(221, 221, 221);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Ensure relative positioning for footer placement */
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    right: 0px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.search-form input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+.productos {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+/* Estilos para la tabla de productos */
+.productos table {
+    background-color: #fff;
+    width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sutil sombra a la tabla */
+}
+
+/* Estilos para las celdas de la tabla de productos */
+.productos table td {
+    border: 1px solid #ddd; /* Borde más suave */
+    padding: 15px; /* Aumenta el espacio interno */
+    text-align: center;
+}
+
+/* Estilos para las imágenes dentro de la tabla */
+.productos table img {
+    height: 150px;
+    width: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.marco {
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.062);
+}
+
+.productos a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.productos a:hover {
+    color: #666666;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}

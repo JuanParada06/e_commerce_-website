@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    margin: 0;
+    margin-top: 100px;
+    font-family: Arial;
+    background: rgba(221, 221, 221, 0.808);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px; /* Reducido el margen superior */
+    margin-bottom: 5px; /* Reducido el margen inferior */
+    color: #333;
+}
+
+
+form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #00cc1b; /* Cambiado el color del texto del enlace */
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #188303;
+    border-radius: 5px;
+}
+
+form a:hover {
+    background-color: #026913; /* Cambiado el fondo al pasar el ratón */
+    color: #fff; /* Cambiado el color del texto al pasar el ratón */
+}
+input[type="hidden"],
+label {
+    margin-bottom: 10px; /* Reducido el margen inferior */
+}
+
+input[type="hidden"] {
+    display: block;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    
+
+    margin-bottom: 10px; /* Reducido el margen inferior */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla {
+    display: flex;
+    width: 100%;
+    margin-bottom: -10px; /* Ajustado para reducir la separación entre la imagen y los datos */
+}
+
+.datos {
+
+    width: 150%;
+    padding: 10px;
+}

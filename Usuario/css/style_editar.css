@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background: rgb(221, 221, 221);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box; /* Añadido para incluir el padding y el borde en el ancho total */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #585858; /* Cambié el color del botón a verde */
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.4s; /* Agregué una transición suave al color de fondo */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cambié el color al pasar el ratón sobre el botón */
+}
+
+
+form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+#mensaje,
+#mensaje_correo{
+    color: red;
+    margin-top: 10px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+

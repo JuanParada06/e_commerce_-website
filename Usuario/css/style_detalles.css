@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background: rgb(221, 221, 221);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    right: 0px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+form {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px; /* Aumentado el relleno para más espacio */
+    width: 400px;
+    text-align: center;
+    margin: 20px; /* Añadido margen para separar del borde de la ventana */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px; /* Aumentado el margen inferior para más espacio */
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px; /* Aumentado el margen superior para más espacio */
+    margin-bottom: 5px; /* Aumentado el margen inferior para más espacio */
+    color: #333;
+}
+
+form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #0066cc; /* Cambiado el color del texto del enlace */
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #0066cc;
+    border-radius: 5px;
+}
+
+form a:hover {
+    background-color: #0066cc; /* Cambiado el fondo al pasar el ratón */
+    color: #fff; /* Cambiado el color del texto al pasar el ratón */
+}
+
+input[type="hidden"],
+label {
+    margin-bottom: 15px; /* Aumentado el margen inferior para más espacio */
+}
+
+input[type="hidden"] {
+    display: block;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

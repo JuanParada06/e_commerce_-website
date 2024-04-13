@@ -1,0 +1,80 @@
+body {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    margin: 0;
+    font-family: Arial;
+    background: rgb(221, 221, 221);
+    height: 100vh; /* Añadido para asegurarse de que el cuerpo cubra toda la altura de la ventana */
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box; /* Añadido para incluir el padding y el borde en el ancho total */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #585858; /* Cambié el color del botón a verde */
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s; /* Agregué una transición suave al color de fondo */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cambié el color al pasar el ratón sobre el botón */
+}
+
+form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+#mensaje,
+#mensaje_correo{
+    color: red;
+    margin-top: 10px;
+}
+
+
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}

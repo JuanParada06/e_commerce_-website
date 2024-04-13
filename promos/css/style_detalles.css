@@ -1,0 +1,76 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    margin: 0;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    background: rgb(221, 221, 221);
+}
+
+/* Estilos específicos del formulario */
+form {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos comunes para el formulario y la tabla */
+form, table {
+    margin-top: 20px;
+}
+
+/* Estilos para el encabezado h2 */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilos para los enlaces dentro del formulario */
+form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(8, 30, 226);
+    margin-top: 20px;
+}
+
+/* Estilos para los elementos hidden y etiquetas */
+input[type="hidden"],
+label {
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los elementos hidden */
+input[type="hidden"] {
+    display: block;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width:600px;
+    max-height:200px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las celdas de la tabla cuando se pasa el ratón sobre ellas */
+tbody tr:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
